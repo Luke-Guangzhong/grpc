@@ -1907,6 +1907,7 @@ add_library(grpc
   src/core/ext/transport/chttp2/transport/frame_goaway.cc
   src/core/ext/transport/chttp2/transport/frame_ping.cc
   src/core/ext/transport/chttp2/transport/frame_rst_stream.cc
+  src/core/ext/transport/chttp2/transport/frame_security.cc
   src/core/ext/transport/chttp2/transport/frame_settings.cc
   src/core/ext/transport/chttp2/transport/frame_window_update.cc
   src/core/ext/transport/chttp2/transport/hpack_encoder.cc
@@ -3013,6 +3014,7 @@ add_library(grpc_unsecure
   src/core/ext/transport/chttp2/transport/frame_goaway.cc
   src/core/ext/transport/chttp2/transport/frame_ping.cc
   src/core/ext/transport/chttp2/transport/frame_rst_stream.cc
+  src/core/ext/transport/chttp2/transport/frame_security.cc
   src/core/ext/transport/chttp2/transport/frame_settings.cc
   src/core/ext/transport/chttp2/transport/frame_window_update.cc
   src/core/ext/transport/chttp2/transport/hpack_encoder.cc
